@@ -1,33 +1,3 @@
-p {
-    color: white;
-    position: absolute;
-}
-
-.title1 {
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-
-    font-size: 10vh;
-    white-space: nowrap;
-}
-
-.title-container {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(180deg, #f08, #d0e);
-}
-
-.title2 {
-    color: black;
-    position: absolute;
-    left: 50%;
-    top: 41.5%;
-    transform: translate(-50%, -50%);
-
-    font-size: 7vh;
-    white-space: nowrap;
+.title {
+    position: relative;
 }

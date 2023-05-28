@@ -1,0 +1,89 @@
+.Title .title1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+  font-size: 10vh;
+  white-space: nowrap;
+
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.Title .title-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(180deg, #614385, #516395); */
+  background-color: white;
+}
+
+.Title .title2 {
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 39.4%;
+  transform: translate(-50%, -50%);
+
+  font-size: 10.6vh;
+  white-space: nowrap;
+
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.Title .buttons {
+  display: flex;
+  position: absolute;
+  height: 3.5%;
+  width: 4%;
+  right: 3%;
+  top: 2%;
+}
+
+.Title a {
+  display: flex;
+  margin: 0% 10%;
+  cursor: pointer;
+}
+
+.Title .scroll {
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title .scroll h3 {
+  transform: rotate(90deg);
+  margin-top: 17%;
+  font-size: 3vh;
+}
+
+.Title .categories {
+  position: absolute;
+  display: flex;
+  left: 1%;
+  top: 2%;
+  font-size: 2.5vh;
+}
+
+.Title .categories p {
+  margin: 0vh 1.5vh;
+  cursor: pointer;
+}
+
+.Title .white p {
+  color: white;
+}
