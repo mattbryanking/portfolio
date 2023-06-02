@@ -1,3 +1,9 @@
+.title1-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
 .Title .title1 {
   color: white;
   position: absolute;
@@ -7,6 +13,7 @@
 
   font-size: 10vh;
   white-space: nowrap;
+  letter-spacing: 0.5vh;
 
   user-select: none;
   -moz-user-select: none;
@@ -15,11 +22,18 @@
   -o-user-select: none;
 }
 
-.Title .title-container {
+.Title .blob-container {
   position: absolute;
   width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.Title .title2-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
   height: 100vh;
-  /* background: linear-gradient(180deg, #614385, #516395); */
   background-color: white;
 }
 
@@ -42,7 +56,7 @@
 
 .Title .buttons {
   display: flex;
-  position: absolute;
+  position: fixed;
   height: 3.5%;
   width: 4%;
   right: 3%;
@@ -52,38 +66,33 @@
 .Title a {
   display: flex;
   margin: 0% 10%;
+
   cursor: pointer;
 }
 
-.Title .scroll {
-  position: absolute;
-  left: 50%;
-  top: 95%;
-  transform: translate(-50%, -50%);
-  font-size: 2vh;
+.Title .links {
+  position: fixed;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 2.3%;
 }
 
-.Title .scroll h3 {
-  transform: rotate(90deg);
-  margin-top: 17%;
-  font-size: 3vh;
-}
-
-.Title .categories {
-  position: absolute;
-  display: flex;
-  left: 1%;
-  top: 2%;
+.Title .links button {
   font-size: 2.5vh;
-}
+  text-shadow: 0.1vh 0vh 0vh #000;
+  letter-spacing: 0.2vh;
 
-.Title .categories p {
-  margin: 0vh 1.5vh;
+  border: none;
+  background-color: white;
+  margin: 0vh 4vh;
+  padding: 0vh;
   cursor: pointer;
 }
 
-.Title .white p {
-  color: white;
+.Title .links .button-left {
+  top: 5%;
+  position: absolute;
+  left: 0;
 }
