@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://mattbryanking.github.io/portfolio",
+  "homepage": "http://mattbryanking.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@react-three/fiber": "^8.13.0",
