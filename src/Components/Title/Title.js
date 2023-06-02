@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import WebFont from "webfontloader";
 
 import instawhite from "../../Assets/Icons/insta-white.png";
