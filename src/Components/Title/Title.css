@@ -70,6 +70,11 @@
   cursor: pointer;
 }
 
+.Title .title2-container .buttons {
+  z-index: 1;
+}
+
+
 .Title .links {
   position: fixed;
   display: flex;
