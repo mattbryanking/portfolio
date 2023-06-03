@@ -6,7 +6,6 @@ export default function App() {
   return (
     <>
       <Title/>
-      {/* <div className="other"></div> */}
     </>
   );
 }
